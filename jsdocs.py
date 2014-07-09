@@ -252,9 +252,9 @@ class JsdocsCommand(sublime_plugin.TextCommand):
                             out.insert(idx, "")
                         lastLineIsTag = True
             for line in out:
-                snippet += "\n " + self.prefix + (self.indentSpaces + line if line else "")
+                snippet += "\n" + self.prefix + (self.indentSpaces + line if line else "")
         else:
-            snippet += "\n " + self.prefix + self.indentSpaces + "${0:" + self.trailingString + '}'
+            snippet += "\n" + self.prefix + self.indentSpaces + "${0:" + self.trailingString + '}'
 
         snippet += "\n" + closer
         return snippet
