@@ -1,5 +1,6 @@
 DocBlockr is a package for [Sublime Text 2 & 3][sublime] which makes writing documentation a breeze. DocBlockr supports **JavaScript**, **PHP**, **ActionScript**, **CoffeeScript**, **TypeScript**, **Java**, **Groovy**, **Objective C**, **C**, **C++** and **Rust**.
 
+Made change for Coffeescript to have single #  to go with CODO
 ## Installation ##
 
 ### With Package Control ###
