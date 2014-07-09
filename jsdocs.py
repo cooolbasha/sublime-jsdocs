@@ -81,7 +81,7 @@ class JsdocsCommand(sublime_plugin.TextCommand):
         self.initialize(self.view, inline)
 
         if self.parser.isExistingComment(self.line):
-            write(self.view, "\n *" + self.indentSpaces)
+            write(self.view, "\n#" + self.indentSpaces)
             return
 
         # erase characters in the view (will be added to the output later)
