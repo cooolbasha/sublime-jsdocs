@@ -791,7 +791,7 @@ class JsdocsCoffee(JsdocsParser):
             'varIdentifier': identifier,
             'fnIdentifier': identifier,
             'fnOpener': None,  # no multi-line function definitions for you, hipsters!
-            'commentCloser': '###',
+            'commentCloser': '#',
             'bool': 'Boolean',
             'function': 'Function'
         }
